@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="public\amazon.webp"
+            src="/amazon.webp"
             width="150"
             height="150"
             alt="Amazon UI Clone"
@@ -43,7 +43,7 @@ const Projects = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="public\todolist.webp"
+            src="/todolist.webp"
             width="150"
             height="150"
             alt="To Do List"
@@ -77,7 +77,7 @@ const Projects = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="public\weather.jpeg"
+            src="/weather.jpeg"
             width="150"
             height="150"
             alt="Weather App"
@@ -110,7 +110,7 @@ const Projects = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="public\website.jpeg"
+            src="/website.jpeg"
             width="150"
             height="150"
             alt="Weather App"
