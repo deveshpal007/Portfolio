@@ -1,6 +1,6 @@
 import React from "react";
 
-const Temp = () => {
+const Projects = () => {
   return (
     <div className="mb-8">
       <div className="border-b border-neutral-900 pb-4 lg:mb-8">
@@ -11,7 +11,7 @@ const Temp = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="src/assets/amazon.webp"
+            src="public\amazon.webp"
             width="150"
             height="150"
             alt="Amazon UI Clone"
@@ -43,7 +43,7 @@ const Temp = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="src/assets/todolist.webp"
+            src="public\todolist.webp"
             width="150"
             height="150"
             alt="To Do List"
@@ -77,7 +77,7 @@ const Temp = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="src/assets/weather.jpeg"
+            src="public\weather.jpeg"
             width="150"
             height="150"
             alt="Weather App"
@@ -110,7 +110,7 @@ const Temp = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="src/assets/website.jpeg"
+            src="public\website.jpeg"
             width="150"
             height="150"
             alt="Weather App"
@@ -141,4 +141,4 @@ const Temp = () => {
   );
 };
 
-export default Temp;
+export default Projects;
