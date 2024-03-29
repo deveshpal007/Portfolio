@@ -11,7 +11,7 @@ const Temp = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
         <div className="w-full lg:w-1/4">
           <img
-            src="src/assets/amazon.jpeg"
+            src="src/assets/amazon.webp"
             width="150"
             height="150"
             alt="Amazon UI Clone"
@@ -99,6 +99,38 @@ const Temp = () => {
             </span>
           </div>
           <a href="https://weather-app-five-brown-31.vercel.app/">
+            <button className="h-8 rounded bg-neutral-900 px-2 py-1 text-sm font-medium">
+              Live
+            </button>
+          </a>
+        </div>
+      </div>
+
+      {/* project 4    */}
+      <div className="flex flex-col items-center lg:flex-row lg:justify-center mb-8">
+        <div className="w-full lg:w-1/4">
+          <img
+            src="src/assets/website.jpeg"
+            width="150"
+            height="150"
+            alt="Weather App"
+            className="mb-6 rounded"
+          />
+        </div>
+        <div className="w-full lg:w-3/4 lg:pl-8">
+          <h3 className="mb-2 text-xl font-semibold">Corporate Website</h3>
+          <p className="mb-4 text-neutral-400">
+            Website to display information about a company and their portfolio.
+          </p>
+          <div className="mb-4 flex flex-wrap">
+            <span className="mr-2 mb-2 h-8 rounded bg-neutral-900 px-2 py-1 text-sm font-medium">
+              React
+            </span>
+            <span className="mr-2 mb-2 h-8 rounded bg-neutral-900 px-2 py-1 text-sm font-medium">
+              JavaScript
+            </span>
+          </div>
+          <a href="https://react1-iota-lake.vercel.app/services">
             <button className="h-8 rounded bg-neutral-900 px-2 py-1 text-sm font-medium">
               Live
             </button>
